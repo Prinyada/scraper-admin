@@ -1,0 +1,105 @@
+.insertdata-container {
+    justify-items: center;
+    text-align: center;
+    display: block;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.select-content {
+    margin: 0 auto;
+    display: flex;
+    height: max-content;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-error {
+    margin: 0 auto;
+    display: flex;
+    height: max-content;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected-content,
+.input-content {
+    margin: 0 auto;
+    display: flex;
+    height: max-content;
+    align-items: center;
+    justify-content: center;
+}
+
+.showData-content {
+    display: block;
+    height: max-content;
+    align-items: center;
+    text-align: center;
+    border: 1px solid var(--black);
+    height: 300px;
+    width: 300px;
+    background-color: var(--powerblue);
+    margin: 20px auto;
+    overflow-y: scroll;
+}
+
+.boxText {
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: var(--pastelblue);
+    display: block;
+    text-align: center;
+    flex-direction: column;
+    width: fit-content;
+    padding-left: 10px;
+}
+
+.tagText {
+
+}
+
+.refresh {
+    background-color: var(--black);
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    color: var(--white);
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.refresh:hover {
+    background-color: var(--white);
+    border: 1px solid black;
+    color: var(--black);
+}
+
+.delete {
+    background-color: var(--red);
+    align-items: center;
+    color: var(--white);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.delete:hover{
+    cursor: pointer;
+    background-color:  #fb5f54;
+}
+
+.select-table {
+    width: 200px;
+}
+
+@media screen and (max-width: 481px){
+    .select-table {
+        width: 120px;
+    }
+}

@@ -1,0 +1,98 @@
+.login-container { 
+    height: 80vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.login-content {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    width: 25em;
+    height: 30em;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, .1) 0 10px 20px ;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.text-login {
+    margin-bottom: 0;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    color: var(--teal);
+}
+/* -------------- input ------------------ */
+.text-error {
+    color: var(--red);
+    text-align: center;
+}
+.input-login {
+    border: none;
+    background-color: var(--gray);
+    height: 4rem;
+    width: 20rem;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.input-login:focus {
+    outline-color: var(--skyblue);
+}
+
+.login-btn {
+    width: 10rem;
+    height: 3rem;
+    background-color: var(--seafoam);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: var(--robineggblue);
+}
+
+@media screen and (max-width: 480px){
+    .login-content {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--white);
+        width: 20em;
+        height: 25em;
+        position: relative;
+        border-radius: 1em;
+        box-shadow: rgba(0, 0, 0, .1) 0 10px 20px ;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    .input-login {
+        border: none;
+        background-color: var(--gray);
+        height: 3rem;
+        width: 15rem;
+        border-radius: 3px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .login-btn {
+        width: 6rem;
+        height: 3rem;
+        background-color: var(--seafoam);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+}
